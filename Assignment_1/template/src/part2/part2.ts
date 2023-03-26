@@ -24,8 +24,6 @@ export const isPaired: (str: string) => boolean = R.pipe(
     R.isEmpty
 );
 
-console.log(isPaired("([{}])"))
-
 /* Question 3 */
 export type WordTree = {
     root: string;
